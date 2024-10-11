@@ -5,6 +5,10 @@
   font-family: "Inter" ;
 }
 
+a {
+  color: black;
+}
+
 
 html, body {
   overflow-x: hidden !important;
