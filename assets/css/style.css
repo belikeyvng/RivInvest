@@ -5,6 +5,10 @@
   font-family: "Inter" ;
 }
 
+span {
+  white-space: nowrap;
+}
+
 a {
   color: black;
 }
@@ -194,11 +198,11 @@ div.overlay {
 }
 
 .s4 {
-  height: 260px;
+  height: 350px;
 }
 
 section.features {
-  margin: 150px 0;
+  margin: 90px 0;
   
 }
 
@@ -853,7 +857,7 @@ column-gap: 50px;
 
    .s6,.s8 ,.s9{
     
-    padding: 0 50px;
+    padding: 0 20px;
   
    }
 
@@ -955,7 +959,7 @@ column-gap: 50px;
   
 
    .s7 {
-    padding:150px  40px;
+    padding:120px  20px;
     
    }
 
@@ -1025,8 +1029,23 @@ column-gap: 50px;
   
  }
  
+
+ .s6 .text-box p {
+  text-align: justify;
+ }
    
   
+.s4 {
+  height: 250px;
+}
+
+.slide-sect .slide-container {
+  padding:0px !important;
+}
+
+section h4, section h5, section h6 {
+  line-height: 42px;
+}
 
 
 }
@@ -1056,8 +1075,9 @@ column-gap: 50px;
    }
 
    section.features {
-    height: 300px;
-    margin:40px 0 ;
+    height: 200px;
+    margin:80px 0px ;
+    margin-bottom: 30px;
    }
 
    .s1-sect h1{
@@ -1094,7 +1114,7 @@ column-gap: 50px;
 
   .s6 {
     
-    padding: 0 40px;
+    padding: 0 20px;
   
    }
 
@@ -1104,8 +1124,9 @@ column-gap: 50px;
 
    .s9  .s9-text {
     font-size: 30px;
-    line-height: 45px;
+    line-height: 35px;
    }
+  
   
 
 }
